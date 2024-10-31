@@ -1,0 +1,15 @@
+:root{
+
+    --black-white: black;
+
+
+}
+
+[data-theme='dark']{
+ 
+    --black-white:white;
+}
+
+.rootbody{
+    background-color: var(--black-white);
+}
